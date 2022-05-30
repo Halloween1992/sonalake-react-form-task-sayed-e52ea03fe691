@@ -1,0 +1,40 @@
+.container li {
+  list-style: none;
+}
+
+.user_item {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  padding: 15px;
+  background-color: rgba(8, 1, 20, 0.9);
+  color: rgb(88, 64, 64);
+}
+
+th {
+  text-align: left;
+}
+
+thead th {
+  padding: 15px;
+  background-color: #55608f;
+  color: rgb(248, 248, 248);
+}
+
+tbody tr td {
+  background-color: rgba(255, 255, 255, 0.5);
+
+  border-bottom: 1px solid #8080804f;
+
+  position: relative;
+}

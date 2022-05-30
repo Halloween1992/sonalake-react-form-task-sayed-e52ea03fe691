@@ -1,0 +1,72 @@
+.FormTaskComplete {
+  padding: 1rem;
+}
+
+form label {
+  display: block;
+  margin: 0rem 0 0.5rem 1rem;
+  font-size: large;
+}
+
+form input,
+select {
+  border-radius: 2rem;
+  display: block;
+  width: 90%;
+  height: 2.55rem;
+  padding: 0 1rem;
+  font-size: large;
+  border: 1px solid gray;
+}
+
+form .personalInfo,
+.userManage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+  border-bottom: 1px solid #80808033;
+  padding-bottom: 3rem;
+}
+
+form button {
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  background-color: #55608f;
+}
+form button:hover {
+  background-color: #3c4d97;
+  cursor: pointer;
+}
+
+form button:disabled {
+  border: 1px solid gray;
+  background-color: gray;
+}
+
+form .invalid {
+  border-color: rgb(219, 47, 47);
+}
+
+.text__error {
+  color: rgb(219, 47, 47);
+}
+.text__success {
+  color: rgb(17, 92, 67);
+}
+
+.feedback {
+  position: absolute;
+  align-content: center;
+  padding: 1rem 2rem;
+  background: #10544e;
+  justify-content: center;
+  display: flex;
+  left: 0;
+  bottom: 45%;
+  color: white;
+  transition: all 4s ease-out;
+}
