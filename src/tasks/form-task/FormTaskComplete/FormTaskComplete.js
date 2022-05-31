@@ -12,9 +12,7 @@ const FormTaskComplete = () => {
   const [fromHasError, setFromHasError] = useState(false);
   const [isSending, setIsSending] = useState(false);
 
-  /* I used context API just to manage an app wide state to trigger fetch fn when a user added,
-  it was an additional feature, I did not have plan from the beggining though, so I did not change everything to use context for this task. 
-  */
+ 
   const userCtx = useContext(userContext);
 
   //using custom hooks for inputs
